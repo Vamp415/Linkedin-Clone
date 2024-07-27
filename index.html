@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome | Linkedin</title>
+    <link rel="icon" type="" href="Assets\logo.png" />
 
     <!-- <==================== CSS Link Start ====================> -->
     <link rel="stylesheet" href="css/style.css" />
@@ -11,11 +12,58 @@
   </head>
   <body>
     <!-- <==================== NavBar Start ====================> -->
+
     <nav class="navbar">
-      <div class="navbar-left"></div>
-      <div class="navbar-center"></div>
-      <div class="navbar-right"></div>
+      <!-- <==================== NavBar Left ====================> -->
+      <div class="navbar-left">
+        <a href="index.html" class="logo">
+          <img src="Assets/logo.png" alt="#" />
+        </a>
+        <div class="search-box">
+            <img src="Assets/search.png" >
+            <input type="text" placeholder="Search">
+        </div>
+      </div>
+
+      <!-- <==================== NavBar Center ====================> -->
+
+      <div class="navbar-center">
+        <ul>
+          <li>
+            <a href="#" class="active-link" ><img src="Assets/home.png" /><span>Home</span></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="Assets/network.png" /><span>My Network</span></a
+            >
+          </li>
+          <li>
+            <a href="#"><img src="Assets/jobs.png" /><span>Jobs</span></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="Assets/message.png" /><span>Messaging</span></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><img src="Assets/notification.png" /><span
+                >Notifications</span
+              ></a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <!-- <==================== NavBar Right ====================> -->
+
+      <div class="navbar-right">
+        <div class="online">
+          <img src="Assets/user-1.png" class="nav-profile-img" />
+        </div>
+      </div>
     </nav>
+
     <!-- <==================== NavBar End ====================> -->
   </body>
 </html>
