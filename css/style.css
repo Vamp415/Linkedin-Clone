@@ -27,6 +27,7 @@ a {
   top: 0;
   z-index: 100;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  position: sticky;
 }
 
 .logo img {
@@ -129,11 +130,15 @@ a {
 .left-sidebar {
   flex-basis: 25%;
   align-self: flex-start;
+  position: sticky;
+  top: 73px;
 }
 
 .right-sidebar {
   flex-basis: 25%;
   align-self: flex-start;
+  position: sticky;
+  top: 73px;
 }
 
 .sidebar-profile-box {
@@ -456,30 +461,30 @@ a {
   margin-bottom: 20px;
 }
 
-.post-author img{
+.post-author img {
   width: 35px;
   border-radius: 50%;
   margin-right: 10px;
   margin-top: 5px;
 }
 
-.post-author h1{
+.post-author h1 {
   font-size: 18px;
   font-weight: 600;
   color: #333;
 }
 
-.post-author small{
+.post-author small {
   display: block;
   margin-bottom: -2px;
 }
 
-.post p{
+.post p {
   font-size: 14px;
   margin-bottom: 15px;
 }
 
-.post-stats{
+.post-stats {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -489,21 +494,21 @@ a {
   padding-bottom: 6px;
 }
 
-.post-stats div{
+.post-stats div {
   display: flex;
   align-items: center;
 }
 
-.post-stats img{
+.post-stats img {
   width: 15px;
   margin-right: -5px;
 }
 
-.liked-users{
+.liked-users {
   margin-left: 10px;
 }
 
-.post-activity{
+.post-activity {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -512,22 +517,22 @@ a {
   font-weight: 500;
 }
 
-.post-activity div{
+.post-activity div {
   display: flex;
   align-items: center;
 }
 
-.post-activiy-user-icon{
+.post-activiy-user-icon {
   width: 22px;
   border-radius: 50%;
 }
 
-.post-activiy-arrow-icon{
+.post-activiy-arrow-icon {
   width: 12px;
   margin-left: 5px;
 }
 
-.post-activity-link img{
+.post-activity-link img {
   width: 18px;
   margin-right: 8px;
 }
