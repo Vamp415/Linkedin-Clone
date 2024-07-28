@@ -260,14 +260,14 @@ a {
   margin-top: 15px;
 }
 
-.sidebar-news h3{
+.sidebar-news h3 {
   font-size: 18px;
   font-weight: 600;
   color: #333;
   margin: 10px 0 30px;
 }
 
-.sidebar-news a{
+.sidebar-news a {
   display: block;
   font-size: 12px;
   font-weight: 600;
@@ -275,22 +275,56 @@ a {
   margin-bottom: -5px;
 }
 
-.sidebar-news span{
+.sidebar-news span {
   font-size: 12px;
 }
 
-.sidebar-news .read-more-link{
+.sidebar-news .read-more-link {
   color: #045be6;
   font-weight: 500;
   margin: 20px 0;
 }
 
-.sidebar-ad{
+.sidebar-ad {
   background: #fff;
   padding: 15px 25px;
   text-align: center;
   margin: 12px 0;
   font-size: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.sidebar-ad img {
+  width: 60px;
+  border-radius: 50%;
+  margin: 4px;
+}
+
+.sidebar-ad small {
+  float: right;
+  font-weight: 500;
+}
+
+.sidebar-ad p {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.sidebar-ad b {
+  display: block;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.ad-link{
+  display: inline-block;
+  border: 1px solid #045be6;
+  border-radius: 30px;
+  padding: 5px 15px;
+  color: #045be6;
+  font-weight: 500;
+  margin: 20px auto 10px;
 }
 
 /* <==================== Left , Center , Right Sidebar / Main Content End ====================> */
