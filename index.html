@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome | Linkedin</title>
-    <link rel="icon" type="" href="Assets\logo.png" />
+    <title>Welcome | LinkedIn</title>
+    <link rel="icon" href="Assets/logo.png" />
 
     <!-- <==================== CSS Link Start ====================> -->
     <link rel="stylesheet" href="css/style.css" />
@@ -12,71 +12,76 @@
   </head>
   <body>
     <!-- <==================== NavBar Start ====================> -->
-
     <nav class="navbar">
       <!-- <==================== NavBar Left ====================> -->
       <div class="navbar-left">
         <a href="index.html" class="logo">
-          <img src="Assets/logo.png" alt="#" />
+          <img src="Assets/logo.png" alt="LinkedIn Logo" />
         </a>
         <div class="search-box">
-          <img src="Assets/search.png" />
+          <img src="Assets/search.png" alt="Search Icon" />
           <input type="text" placeholder="Search" />
         </div>
       </div>
 
       <!-- <==================== NavBar Center ====================> -->
-
       <div class="navbar-center">
         <ul>
           <li>
-            <a href="#" class="active-link"
-              ><img src="Assets/home.png" /><span>Home</span></a
-            >
+            <a href="#" class="active-link">
+              <img src="Assets/home.png" alt="Home Icon" /><span>Home</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="Assets/network.png" alt="Network Icon" /><span
+                >My Network</span
+              >
+            </a>
           </li>
           <li>
             <a href="#"
-              ><img src="Assets/network.png" /><span>My Network</span></a
+              ><img src="Assets/jobs.png" alt="Jobs Icon" /><span>Jobs</span></a
             >
           </li>
           <li>
-            <a href="#"><img src="Assets/jobs.png" /><span>Jobs</span></a>
+            <a href="#">
+              <img src="Assets/message.png" alt="Message Icon" /><span
+                >Messaging</span
+              >
+            </a>
           </li>
           <li>
-            <a href="#"
-              ><img src="Assets/message.png" /><span>Messaging</span></a
-            >
-          </li>
-          <li>
-            <a href="#"
-              ><img src="Assets/notification.png" /><span
+            <a href="#">
+              <img src="Assets/notification.png" alt="Notification Icon" /><span
                 >Notifications</span
-              ></a
-            >
+              >
+            </a>
           </li>
         </ul>
       </div>
 
       <!-- <==================== NavBar Right ====================> -->
-
       <div class="navbar-right">
         <div class="online">
-          <img src="Assets/user-1.png" class="nav-profile-img" />
+          <img
+            src="Assets/user-1.png"
+            class="nav-profile-img"
+            alt="User Profile"
+          />
         </div>
       </div>
     </nav>
-
     <!-- <==================== NavBar End ====================> -->
 
     <!-- <==================== Sidebars Start ====================> -->
-
     <div class="container">
-      <!-- <==================== Left Sidebars  ====================> -->
+      <!-- <==================== Left Sidebar ====================> -->
       <div class="left-sidebar">
         <div class="sidebar-profile-box">
-          <img src="Assets/cover-pic.png" width="100%" />
+          <img src="Assets/cover-pic.png" alt="Cover Picture" width="100%" />
           <div class="sidebar-profile-info">
-            <img src="Assets/user-1.png" alt="" />
+            <img src="Assets/user-1.png" alt="Profile Picture" />
             <h1>Hardik Saxena</h1>
             <h3>Web Developer || Cyber Security Student</h3>
             <ul>
@@ -85,18 +90,61 @@
             </ul>
           </div>
           <div class="sidebar-profile-link">
-            <div class="sidebar-profile-premium">
-                <p>Get hired 2.6x faster with Premium</p>
-                <button>Try for ₹0</button>
-            <a href="#"><img src="Assets/premium.png">Try Premium</a>
-            <a href="#"><img src="Assets/items.png">My items</a>
+            <a href="#"><img src="Assets/items.png" alt="" />My items</a>
+            <a href="#"><img src="Assets/premium.png" alt="" />Try Premium</a>
+          </div>
+        </div>
+        <div class="sidebar-activity">
+          <h3>RECENT</h3>
+          <a href="#"><img src="Assets/recent.png" alt="" />Web Development</a>
+          <a href="#"><img src="Assets/recent.png" alt="" />JavaScript</a>
+          <a href="#"><img src="Assets/recent.png" alt="" />Linux</a>
+          <h3>GROUPS</h3>
+          <a href="#"><img src="Assets/group.png" alt="" />JavaScript</a>
+          <a href="#"
+            ><img src="Assets/group.png" alt="" /> Internship Groups</a
+          >
+          <h3>EVENTS</h3>
+          <h3>HASHTAG</h3>
+          <a href="#"><img src="Assets/hashtag.png" alt="" />JavaScript</a>
+          <div class="discover-more-link">
+            <a href="#">Discover more</a>
           </div>
         </div>
       </div>
       <!-- <==================== Main Content ====================> -->
       <div class="center-sidebar"></div>
       <!-- <==================== Right Sidebar ====================> -->
-      <div class="right-sidebar"></div>
+      <div class="right-sidebar">
+        <div class="sidebar-news">
+          <img src="Assets/more.png" class="info-icon" />
+          <h1>Trending News</h1>
+          <a href="">France probing 'rail sabotage'</a>
+          <span>Top news</span>
+
+          <a href="">Why banks must focus on MSMEs</a>
+          <span>3d ago</span>
+
+          <a href="">Key takeaways from Budget 2024 </a>
+          <span>5d ago</span>
+
+          <a href="">Consumer firms step up local play </a>
+          <span>2d ago</span>
+
+          <a href="#" class="read-more-link">Read More</a>
+        </div>
+
+        <div class="sidebar-ad">
+          <small>Ad</small>
+          <p>Master the 5 participles of web design</p>
+          <div>
+            <img src="Assets/user-1.png" />
+            <img src="Assets/mi-logo.png" >
+          </div>
+          <b>Brand and Demand in Xiaomi</b>
+          <a href="" class="ad-link"></a>
+        </div>
+      </div>
     </div>
     <!-- <==================== Sidebars End ====================> -->
   </body>
