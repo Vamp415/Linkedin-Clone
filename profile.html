@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile | LinkedIn</title>
+    <link rel="icon" href="Assets/logo.png" />
+    <!-- <==================== CSS Link Start ====================> -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- <==================== CSS Link End ====================> -->
+  </head>
+  <body>
+    <!-- <==================== NavBar Start ====================> -->
+    <nav class="navbar">
+      <!-- <==================== NavBar Left ====================> -->
+      <div class="navbar-left">
+        <a href="index.html" class="logo">
+          <img src="Assets/logo.png" alt="LinkedIn Logo" />
+        </a>
+        <div class="search-box">
+          <img src="Assets/search.png" alt="Search Icon" />
+          <input type="text" placeholder="Search" />
+        </div>
+      </div>
+
+      <!-- <==================== NavBar Center ====================> -->
+      <div class="navbar-center">
+        <ul>
+          <li>
+            <a href="#" class="active-link">
+              <img src="Assets/home.png" alt="Home Icon" /><span>Home</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="Assets/network.png" alt="Network Icon" /><span
+                >My Network</span
+              >
+            </a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="Assets/jobs.png" alt="Jobs Icon" /><span>Jobs</span></a
+            >
+          </li>
+          <li>
+            <a href="#">
+              <img src="Assets/message.png" alt="Message Icon" /><span
+                >Messaging</span
+              >
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="Assets/notification.png" alt="Notification Icon" /><span
+                >Notifications</span
+              >
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- <==================== NavBar Right ====================> -->
+      <div class="navbar-right">
+        <div class="online">
+          <img
+            src="Assets/user-1.png"
+            class="nav-profile-img"
+            onclick="toggleMenu()"
+          />
+        </div>
+      </div>
+
+      <!-- <==================== Profile drop down menu ====================> -->
+      <div class="profile-menu-wrap" id="profileMenu">
+        <div class="profile-menu">
+          <div class="user-info">
+            <img src="Assets/user-1.png" alt="User Profile Picture" />
+            <div>
+              <h3>XY</h3>
+              <a href="#">See your profile</a>
+            </div>
+          </div>
+          <hr />
+          <a href="#" class="profile-menu-link">
+            <img src="Assets/feedback.png" />
+            <p>Five Feedback</p>
+            <span>></span>
+          </a>
+          <a href="#" class="profile-menu-link">
+            <img src="Assets/setting.png" />
+            <p>Settings & Privacy</p>
+            <span>></span>
+          </a>
+          <a href="#" class="profile-menu-link">
+            <img src="Assets/help.png" />
+            <p>Help & Support</p>
+            <span>></span>
+          </a>
+          <a href="#" class="profile-menu-link">
+            <img src="Assets/display.png" />
+            <p>Display and Accessibility</p>
+            <span>></span>
+          </a>
+          <a href="#" class="profile-menu-link">
+            <img src="Assets/logout.png" />
+            <p>Logout</p>
+            <span>></span>
+          </a>
+        </div>
+      </div>
+    </nav>
+    <!-- <==================== NavBar End ====================> -->
+
+    <!-- <==================== Profile page Start ====================> -->
+    <div class="container">
+      <div class="profile-main">
+        <div class="profile-container">
+            <img src="Assets/cover-pic.png" width="100%">
+            <div class="profile-container-inner">
+                <img src="Assets/user-1.png" class="profile-pic">
+                <h1>XY</h1>
+                <b>Web Developer || Cyber Security Student</b>
+                <p>New Delhi, Delhi, India &middot; <a href="">Contact info</a></p>
+            </div>
+        </div>
+      </div>
+
+      <div class="profile-sidebar"></div>
+    </div>
+    <!-- <==================== Profile page End ====================> -->
+
+    <!-- <==================== Js Script Start ====================> -->
+    <script src="js/script.js"></script>
+    <!-- <==================== Js Script End ====================> -->
+  </body>
+</html>

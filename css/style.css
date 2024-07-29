@@ -608,3 +608,16 @@ a {
 }
 
 /* <==================== Left , Center , Right Sidebar / Main Content End ====================> */
+
+/* <==================== Profile page Styling Start ====================> */
+.profile-main {
+  flex-basis: 73%;
+}
+
+.profile-sidebar{
+  flex-basis: 25%;
+  align-self: flex-start;
+  position: sticky;
+  top: 75%;
+}
+/* <==================== Profile page Styling End ====================> */
