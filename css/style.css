@@ -730,23 +730,23 @@ a {
   color: #333;
 }
 
-.profile-desc-row b{
+.profile-desc-row b {
   display: block;
   font-weight: 500;
   font-size: 15px;
 }
 
-.profile-desc-row p{
+.profile-desc-row p {
   margin-top: 15px;
 }
 
-.profile-desc-row hr{
+.profile-desc-row hr {
   border: 0;
   border-bottom: 1px solid #999;
   margin-top: 10px;
 }
 
-.experience-list{
+.experience-list {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -754,11 +754,11 @@ a {
   font-weight: 500;
 }
 
-.experience-list img{
+.experience-list img {
   width: 20px;
   margin-left: 8px;
 }
-.skills-btn{
+.skills-btn {
   display: inline-block;
   margin: 10px 5px;
   padding: 6px 18px;
@@ -766,5 +766,12 @@ a {
   border-radius: 30px;
   font-size: 12px;
   font-weight: 500;
+}
+.language-btn {
+  display: inline-block;
+  margin: 10px 5px;
+  padding: 6px 18px;
+  background: #e4e6eb;
+  font-size: 12px;
 }
 /* <==================== Profile page Styling End ====================> */
