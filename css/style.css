@@ -118,14 +118,21 @@ a {
   border: 0;
 }
 
-.profile-menu-wrap{
+.profile-menu-wrap {
   position: absolute;
   top: 100%;
   right: 5%;
   width: 320px;
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.5s;
 }
 
-.profile-menu{
+.profile-menu-wrap.open-menu {
+  max-height: 400px;
+}
+
+.profile-menu {
   background: #222;
   color: #fff;
   padding: 20px;
@@ -133,28 +140,28 @@ a {
   border-radius: 10px;
 }
 
-.user-info{
+.user-info {
   display: flex;
   align-items: center;
 }
 
-.user-info img{
+.user-info img {
   width: 50px;
   border-radius: 50%;
   margin-right: 15px;
-} 
+}
 
-.user-info h3{
+.user-info h3 {
   font-weight: 500;
   margin-bottom: -7px;
 }
 
-.user-info a{
+.user-info a {
   color: #c9dbf8;
   font-size: 13px;
 }
 
-.profile-menu hr{
+.profile-menu hr {
   border: 0;
   height: 1px;
   width: 100%;
@@ -162,7 +169,7 @@ a {
   margin: 15px 0 10px;
 }
 
-.profile-menu-link{
+.profile-menu-link {
   display: flex;
   align-items: center;
   color: #fff;
@@ -170,11 +177,11 @@ a {
   font-size: 14px;
 }
 
-.profile-menu-link p{
+.profile-menu-link p {
   width: 100%;
 }
 
-.profile-menu-link img{
+.profile-menu-link img {
   width: 35px;
   border-radius: 50%;
   margin-right: 35px;
